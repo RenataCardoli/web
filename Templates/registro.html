@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coderhouse</title>
+</head>
+
+<body>
+    <h1>Registro Familiar</h1>
+    <hr>
+    {%for registro in family_new %}
+    <h2> Nombre: {{registro.name}} <br> Dni: {{registro.dni}}<br> Email: {{registro.email}}</h2>
+    <hr>
+    {% endfor %}
+</body>
+</html>
